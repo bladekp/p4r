@@ -1,0 +1,14 @@
+.icon-info {background-image: url("../images/ie7info.png");background-repeat:no-repeat;background-position:2px center}
+.icon-info:hover, li.active a.icon-info {background-image: url("../images/ie7info_active.png");background-repeat:no-repeat;background-position:2px center}
+.icon-dane {background-image: url("../images/ie7dane.png");background-repeat:no-repeat;background-position:2px center}
+.icon-dane:hover, li.active a.icon-dane {background-image: url("../images/ie7dane_active.png");background-repeat:no-repeat;background-position:2px center}
+.icon-wykaz {background-image: url("../images/ie7wykaz.png");background-repeat:no-repeat;background-position:2px center}
+.icon-wykaz:hover, li.active a.icon-wykaz {background-image: url("../images/ie7wykaz_active.png");background-repeat:no-repeat;background-position:2px center}
+.icon-przeglad {background-image: url("../images/ie7przeglad.png");background-repeat:no-repeat;background-position:2px center}
+.icon-przeglad:hover, li.active a.icon-przeglad {background-image: url("../images/ie7przeglad_active.png");background-repeat:no-repeat;background-position:2px center}
+.icon-sprawy {background-image: url("../images/ie7sprawy.png");background-repeat:no-repeat;background-position:2px center}
+.icon-sprawy:hover, li.active a.icon-sprawy {background-image: url("../images/ie7sprawy_active.png");background-repeat:no-repeat;background-position:2px center}
+.icon-wiadomosci {background-image: url("../images/ie7wiadomosci.png");background-repeat:no-repeat;background-position:2px center}
+.icon-wiadomosci:hover, li.active a.icon-wiadomosci {background-image: url("../images/ie7wiadomosci_active.png");background-repeat:no-repeat;background-position:2px center}
+.icon-dowody {background-image: url("../images/ie7dowody.png");background-repeat:no-repeat;background-position:2px center}
+.icon-dowody:hover, li.active a.icon-dowody {background-image: url("../images/ie7dowody_active.png");background-repeat:no-repeat;background-position:2px center}

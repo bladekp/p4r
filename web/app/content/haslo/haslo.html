@@ -1,0 +1,44 @@
+<div id="container">
+    <div class="responsive">
+        <div class="grid_12">
+            <h2 class="greenHeader" style="font-size: 18px; line-height: 32px;">Odzyskiwanie hasła</h2>
+            <p style="font-size: 16px; line-height: 24px;">Odzyskiwanie hasła wymaga zdefiniowanego w ustawieniach konta poprawnego adresu poczty elektronicznej.</p>
+            <div class="panel odzyskhasla">
+                <form id="odzyskanieHaslaFormularz" class="haslo" method="POST">
+                    <div class="formRow">
+                        <label for="login">Login</label>
+                        <div class="inputWrapp">
+                            <input id="login" name="login" type="text" value="" autocomplete="off">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="formRow">
+                        <label for="pytaniePomocnicze" class="fixedWight">Pytanie pomocnicze</label>
+                        <div class="inputWrapp">
+                            <div class="fixedWidth" id="uniform-pytaniePomocnicze">
+                                <select id="pytaniePomocnicze" name="pytaniePomocnicze" mycheckbox>
+                                    <option value=""></option>
+                                    <option value="ULUBIONY_KOLOR" selected="selected">Ulubiony kolor</option><option value="ULUBIONY_FILM">Ulubiony film</option><option value="ULUBIONA_POTRAWA">Ulubiona potrawa</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="formRow">
+                        <label for="odpowiedzNaPytanie" style="font-size: 16px;">Odpowiedź</label>
+                        <div class="inputWrapp">
+                            <input id="odpowiedzNaPytanie" name="odpowiedzNaPytanie" type="text" value="" autocomplete="off">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="formRowNo center">
+                        <a href="#/zaloguj" name="zatwierdz" ng-click="haslo.showDialog()" class="button green button_200">Wygeneruj hasło</a>
+                    </div>
+                    </form>
+            </div>
+        </div>
+
+        <div class="clr"></div>
+        <!-- end class="reponsive"  -->
+    </div>
+    <!-- end id="container" -->
+</div>

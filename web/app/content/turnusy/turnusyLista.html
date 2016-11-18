@@ -1,0 +1,29 @@
+<h2 class="greyHeader switch" ng-click="turnusy.zwinieta=!turnusy.zwinieta">Lista turnusów </h2>
+<div id="turnusy" class="toggle" ng-hide="turnusy.zwinieta">
+    <table class="smallTd">
+        <thead>
+            <tr>
+                <th>Nazwa zakładu</th>
+                <th>Przeznaczenie zakładu</th>
+                <th>Od</th>
+                <th>Do</th>
+                <th>Data dodania skierowań</th>
+                <th>Importuj skierowania</th>
+                <th>Data dodania epikryz</th>
+                <th>Eksportuj epikryzy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="rekord in turnusy.lista" ng-class="{wierszNieparzysty: $index % 2 != 0,  wierszParzysty: $index % 2 == 0}">
+                <td> {{ rekord.nazwaZakladu }}</td>
+                <td> {{ rekord.przeznaczenieZakladu }}</td>
+                <td> {{ rekord.dataOd }}</td>
+                <td> {{ rekord.dataDo }}</td>
+                <td> {{ rekord.dataDodaniaSkierowan }}</td>
+                <td> <a class="button red button_150">Importuj</a> </td>
+                <td> {{ rekord.dataDodaniaEpikryz }}</td>
+                <td> <a class="button red button_150">Eksportuj</a> </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

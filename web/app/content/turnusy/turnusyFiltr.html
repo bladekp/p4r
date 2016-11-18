@@ -1,0 +1,39 @@
+<h2 class="greyHeader">Kryteria filtrowania turnusów</h2>
+<form>
+    <div class="formRow">
+        <label for="nazwaZakladu" class="fixedWight">Nazwa zakładu</label>
+        <div class="inputWrapp">
+            <input id="nazwaZakladu" type="text">
+            <br>
+        </div>
+    </div>
+    <div class="formRow">
+        <label for="przeznaczenieZakladu" class="fixedWight">Przeznaczenie zakładu</label>
+        <!--<div class="inputWrapp">
+            <input id="przeznaczenieZakladu" type="text">
+            <br>
+        </div>-->
+		<div class="inputWrapp" >
+                    <select id="przeznaczenieZakladu" name="przeznaczenieZakladu" mycheckbox>
+                        <option value="DLA_PRACOWNIKOW" selected="selected">Dla pracowników</option><option value="DLA_DZIECI">Dla dzieci</option>
+                    </select>
+    </div>
+	</div>
+    <div class="formRow">
+        <label for="dataOd" class="fixedWight">Data od (RRRR-MM-DD)</label>
+        <div class="inputWrapp">
+            <input id="dataOd" type="text" value="" maxlength="10" datepicker class="datepicker">
+            <br>
+        </div>
+    </div>
+    <div class="formRow">
+        <label for="dataDo" class="fixedWight">Data do (RRRR-MM-DD)</label>
+        <div class="inputWrapp">
+            <input id="dataDo" type="text" value="" maxlength="10" datepicker class="datepicker">
+            <br>
+        </div>
+    </div>
+    <div class="formRowNo right">
+        <a class="button red button_120 stopClickOnDateValidationError" ng-click="turnusy.setCriteriaChoosen();">Zatwierdź</a>
+    </div>
+</form>
